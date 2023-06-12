@@ -1,0 +1,20 @@
+#foto{
+	position: absolute;
+	margin: 0 auto;
+	text-align: center;
+	
+}
+#muda{
+	border: 2px solid black;
+	cursor: pointer;
+	padding: 5px;
+	border-radius: 5px;
+	margin:5px;
+
+}
+#mudar{
+	border: 2px solid black;
+	cursor: pointer;
+	padding: 5px;
+	border-radius: 5px;
+}
