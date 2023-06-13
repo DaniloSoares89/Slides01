@@ -6,16 +6,13 @@
     <title>Slide Carrossel</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/ca14b9e588.js" crossorigin="anonymous"></script>
+    
 </head>
 <body>
     <div class="slide">
         <div class="slides">
-        
-
-        
-    
-            <div id="voltar" class="btn">
-         <i class="fas fa-chevron-left"></i>
+         <div id="voltar" class="btn">
+          <i class="fas fa-chevron-left"></i>
         </div>
         <div id="next" class="btn">
             <i class="fas fa-chevron-right"></i>
@@ -67,16 +64,22 @@
             slide()
         })
     }
+
+    
+    
+    
     voltar.addEventListener('click', ()=>{
         atual--
         rolar = false
         slide()
     })
-    next.addEventListener('click', ()=>{
+       next.addEventListener('click', ()=>{
         atual++
         rolar=false
         slide()
     })
+
+
     function slide(){
         if(atual >=quant.length){
             atual = 0
